@@ -14,6 +14,12 @@ Summary
 -------
 Your task is to create a django model that would store any data (based on a priori defined data scheme) and make this model usable across the project (admin integration + simple form view for adding new instances).
 
+Solution
+--------
+Please create a separate branch where you can commit your work. Follow general guidelines of keeping git history clean and use meaningful messages. Please submit your solution as an open pull request to this repository.
+
+Please describe your solution in the seperate paragraph at the bottom of this README file. Description should contain information like: solution overview, basic details, reasons for choosing one approach vs others. `A picture is worth a thousand words` - so any screenshots explaining the solution or showing it works are appreciated.
+
 Requirements
 ------------
 - django model, say `GenericModel`, that stores any data (proposed aproach is to use JSON field but we're open to better solutions)
@@ -23,16 +29,12 @@ Requirements
 
 How to set up this project?
 ===========================
-The project has been built using cookiecutter-django template (https://github.com/pydanny/cookiecutter-django). Please refer to its docs for some more information. Launching the project follows well known guidelines of setting up a standard django project:
+The project has been built using cookiecutter-django template (https://github.com/pydanny/cookiecutter-django). Please refer to its docs for more information. Launching the project follows well known guidelines of setting up a standard django project:
 
 - creating virtualenv
 - installing requirements (local.txt)
 - running migrations
 - running django dev server
-
-Collaboration
-=============
-Please create a separate branch where you can commit your work. Follow general guidelines of keeping git history clean and use meaningful messages. Once you're done, please create a pull request where you can describe your solution.
 
 Questions
 =========
@@ -52,7 +54,7 @@ Example: python dict that describes fields/types etc.
 
 **Q:** Access to attributes should be like `GenericModelInstance.age`?
 
-**A:**  Doesn't matter, as you wish. Let's not invent new requirements, and keep the task simple. The goal of the task is to:
+**A:**  Doesn't matter, as you wish. Let's not invent new requirements, and keep the task simple. The goal of the task is to do:
 
 * Django model that stores any data
 * scheme
