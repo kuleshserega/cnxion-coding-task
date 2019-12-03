@@ -1,7 +1,7 @@
-HH Coding Task
+CNXION Coding Task
 ==============
 
-This is Hunted Hive coding task.
+This is CNXION coding task.
 
 .. image:: https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg
      :target: https://github.com/pydanny/cookiecutter-django/
