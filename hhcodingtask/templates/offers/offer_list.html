@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}{{ user.username }}{% endblock %}
+
+{% block content %}
+  <h1>{{ user.username }}</h1>
+
+  <div class="control-group">
+    <ul>
+      {% for object in object_list %}
+        <li><a href="{% url 'offers:update' object.id %}">Offer {{ object.id }}</li>
+      {% endfor%}
+    </ul>
+  </div>
+{% endblock %}

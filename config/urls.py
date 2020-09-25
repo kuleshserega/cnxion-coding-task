@@ -20,6 +20,10 @@ urlpatterns = [
         include("hhcodingtask.users.urls", namespace="users"),
     ),
     url(r"^accounts/", include("allauth.urls")),
+    url(
+        r"^offers/",
+        include("hhcodingtask.offers.urls", namespace="offers"),
+    ),
     # Your stuff: custom urls includes go here
 ] + static(
     settings.MEDIA_URL, document_root=settings.MEDIA_ROOT
